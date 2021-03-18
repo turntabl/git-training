@@ -1,8 +1,11 @@
 # Git exercise: Fast-forward Merge 
 
-## The task
+## Setup
+* echo "good day" > greeting.txt
+* git add greeting.txt
+* git commit -m "added greeting"
 
-You again live in your own branch, this time we will be doing a bit of juggling with branches, to show how lightweight branches are in git.
+## The task
 
 1. Create a (feature)branch called feature/uppercase
 2. Checkout the branch

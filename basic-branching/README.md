@@ -1,5 +1,7 @@
 # Git exercise: Basic Branching 
 
+## Setup
+continue from the basic staging exercise
 ## The task
 You again live in your own branch, this time we will be doing a bit of juggling with branches, to show how lightweight branches are in git.
 Hint: `git checkout` will make you switch from one branch to another.
