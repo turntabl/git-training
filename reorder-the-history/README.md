@@ -1,9 +1,27 @@
 ## Git exercise : Reordering history
+
 The commits here have obviously been made by a mad man.
 Unfortunately they actually contain useful information - it's just that the history is weird.
 You should fix this such that our `git log` looks great!
 
+## Setup
 
+```sh
+echo "initial" > foo.txt
+git add foo.txt
+git commit -m "Initial commit"
+git tag -m 'Start' START
+git push origin master
+git push origin START
+
+echo "1" > file1
+git add file1
+git commit -m "file1"
+
+echo "9" > file9
+git add file9
+git commit -m "file9"
+```
 
 ## Task
 

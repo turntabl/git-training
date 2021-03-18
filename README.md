@@ -14,7 +14,7 @@ There are more exercises than this, but these should take you through everything
 - [Amend](./amend/README.md)
 - [Reorder the History](./reorder-the-history/README.md)
 - [Advanced Rebase Interactive](./advanced-rebase-interactive/README.md)
-- [Rebase using autosquash](./rebase-interactive-autosquash/README.md)
+- [Squash commits](./squashing/README.md)
 - [Basic Stashing](./basic-stashing/README.md)
 
 ## Cheatsheet

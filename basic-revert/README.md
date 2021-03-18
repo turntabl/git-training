@@ -1,8 +1,21 @@
 # Git exercise: Basic revert 
 
+## Setup
+```sh
+echo "supersecretpassword" > credentials.txt
+git add credentials.txt
+git commit -m "Add credentials to repository"
+echo "Original file content" > greeting.txt
+git add greeting.txt
+git commit -m "Add content to greeting.txt"
+echo "This should have been appended to the original content, rather than overwriting it." > greeting.txt
+git add greeting.txt
+git commit -m "Overwrite greeting.txt"
+```
+
 ## The task
 
-In this task a few changes snuck in, that we'd like to get out. Our history is public, so we can't just change it. Rather we need to use revert to remove the unwanted changes in a safe way.
+In this task a few changes came in, that we'd like to get out. Our history is public, so we can't just change it. Rather we need to use revert to remove the unwanted changes in a safe way.
 
 1. Use `git log --decorate --oneline` to look at the history
 2.  Use `cat` to view the content of `greeting.txt`
