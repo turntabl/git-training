@@ -55,18 +55,6 @@ git reset <file>                        # Unstage a staged file leaving in worki
 git reset --soft [commit_hash]          # resets the current branch to <commit>. Does not touch the staging area or the working tree at all. 
                                         # --hard mode would discard all changes.
 
-# Configuring a different editor
-## Avoid Vim but stay in terminal:
-- `git config --global core.editor nano`
-
-## For Windows:
-- Use Notepad:
-`git config --global core.editor notepad`
-
-- or for instance Notepad++:
-`git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"`
-
-
 # See history
 git log             # Show commit logs
 git log --oneline   # Formats commits to a single line (shorthand for --pretty=oneline  --abbrev-commit )
