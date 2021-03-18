@@ -12,13 +12,17 @@ These changes do not have to be the same.
 
 We will also work with `git reset` to reset the staged changes of a file, and `git checkout` to return a file to a previous state.
 
+# Setup
+* echo 1 > file.txt
+* git add file.txt
+* git commit -m "1"
 
 ## The task
 
 You live in your own repository. There is a file called `file.txt`.
 
 1. What's the content of `file.txt`?
-2. Overwrite the content in `file.txt`: `echo 2 > file.txt` to change the state of your file in the working directory (or `sc file.txt '2'` in PowerShell)
+2. Overwrite the content in `file.txt`: `echo 2 > file.txt` to change the state of your file in the working directory (or `sc file.txt '2'` in PowerShell in windows)
 3. What does `git diff` tell you?
 4. What does `git diff --staged` tell you? why is this blank?
 5. Run `git add file.txt` to stage your changes from the working directory.

@@ -1,11 +1,16 @@
 # Git exercise: rebase branch
 
 ## Setup:
-1. Run `source setup.sh` (or `.\setup.ps1` in PowerShell)
-
+continue from the previous
+* git checkout -b uppercase
+* echo "HELLO" > greeting.txt
+* git commit -am "Change greeting to uppercase" 
+* git checkout master // or main
+* echo "Greetings library" > README.md
+* git add README.md
+* git commit -m "Add readme"
 
 ## The task
-You again live in your own branch, this time we will be doing a bit of juggling with branches, to show how lightweight branches are in git.
 
 1. Which branches exist?
 2. Look at the log for the master branch

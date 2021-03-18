@@ -1,7 +1,9 @@
 # Git exercise: 3-Way Merge
 
-## The task
-You again live in your own branch, this time we will be doing a bit of juggling with branches, to show how lightweight branches are in git.
+## Setup
+continue from the Fast-forward Merge exercise
+
+## The task 
 
 1. Create a branch called greeting and check it out
 2. Edit the greeting.txt to contain your favorite greeting
