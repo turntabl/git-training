@@ -1,11 +1,14 @@
-# Git Training: Git reset
+# Git exercise: Git reset
 We can manipulate the History very much so. We should only ever tinker with our local history. As publicly release commits must expect to be immutable.
 
 We use reset to unstage change, but we can also do many more different things.
 
 ## Setup
 
-1. Please continue from the previous stage as its a build-up.
+* Create five(5) files each with unique name. Example: `file_1.txt`.
+* For each of the files add file number as the content of the file and commit each file with different commit messages.
+
+
 
 ## Task
 

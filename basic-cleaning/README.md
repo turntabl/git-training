@@ -1,8 +1,26 @@
-# Git Training: Basic cleaning
+# Git exercise: Basic cleaning
 
 ## Setup:
 
-1. Please follow up from the previous exercise.
+```sh
+# make-exercise-repo 
+mkdir src
+
+echo "** SOME USEFUL INFO ** " > README.txt
+echo "// awesome C code " > src/myapp.c
+echo "// awesome C header " > src/myapp.h
+
+git add src/myapp.* README.txt
+git commit -m "C code for my app"
+
+echo "// awesome C library  " > src/mylib.c
+
+touch src/myapp.c~ src/oldfile.c~ 
+touch README.txt~
+mkdir obj
+touch obj/mylib.o obj/mylib.a obj/myapp.o obj/a.out
+
+```
 
 ## The task
 You are working on a project that involves generated files.  Say you are compiling C files into object files. Before checking out a new branch you want to start clean

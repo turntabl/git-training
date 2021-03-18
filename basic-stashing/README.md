@@ -2,6 +2,29 @@
 
 ## The task
 
+```sh
+echo "Initial content of the file" > file.txt
+touch fix.txt
+
+git add file.txt fix.txt
+git commit -m "Initial commit"
+
+
+echo "this file haaasss some typos" > bug.txt
+
+git add bug.txt
+git commit -m "add bug.txt"
+
+echo "some changes I made and staged" >> file.txt
+
+git add file.txt
+
+echo "some changes I made and did not stage yet" >> file.txt
+
+echo "changes I did not stage" > fix.txt
+
+```
+
 You are working on your project. You've staged some work and have some unstaged work as well.
 Suddenly, you're made aware that a bug has made it to production. You'll stash your work, fix the bug and get back to your original work.
 
