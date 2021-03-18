@@ -1,4 +1,4 @@
-# Git Training: Basic Commits
+# Git exercise: Basic Commits
 This exercise will introduce you to the `git add` and `git commit` commands.
 
 This is a very introductory git exercise. if you have used `git status`, `git log --oneline --graph`, `git add` and `git commit` extensively you should probably skip it.
@@ -36,22 +36,11 @@ You can look at the bottom of this file, if you have not yet done basic git conf
 - `git log -n 5`
 - `git log --oneline`
 - `git log --oneline --graph`
-- `touch filename` to create a file (or `sc filename ''` in PowerShell)
-- `echo content > file` to overwrite file with content (or `sc filename 'content'` in PowerShell)
-- `echo content >> file` to append file with content (or `ac filename 'content'` in PowerShell)
+- `touch filename` to create a file (or `sc filename ''` in PowerShell in Windows)
+- `echo content > file` to overwrite file with content (or `sc filename 'content'` in PowerShell in Windows)
+- `echo content >> file` to append file with content (or `ac filename 'content'` in PowerShell in Windows)
 
 
 ## Git Initial Configuration
 1. `git config --global user.name "John Doe"`
 1. `git config --global user.email "johndoe@example.com`
-
-For the vim scared:
-- `git config --global core.editor nano`
-
-For the windows peeps:
-- `git config --global core.editor notepad`
-
-Other editor options:
-- `git config --global core.editor "atom --wait"`
-- `git config --global core.editor "code --wait"`
-- `git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst"`
